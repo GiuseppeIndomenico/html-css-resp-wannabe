@@ -135,3 +135,34 @@ img {
     }    
 }
 
+@media all and (max-width:680px) {
+
+    .row{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        width:100
+         
+    }
+
+    .steps{margin: 0
+    }
+
+    
+    .why-us{
+        background-color: #222222;
+        margin:0
+    }
+
+  
+    .lesson .col, .steps .col, .why-us .col-left, .why-us .col-right {
+        width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+   
+}
+
